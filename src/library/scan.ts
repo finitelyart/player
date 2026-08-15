@@ -1,7 +1,7 @@
 import { db } from '../db/db'
 import { normalizeArtwork } from '../metadata/artwork'
 import { parseFlac } from '../metadata/parse'
-import type { DirectoryHandleLike, ScanProgress, TrackRecord } from '../types'
+import type { DirectoryHandleLike, ScanProgress } from '../types'
 import { buildAlbums, sourceAlbumPathFor } from './grouping'
 
 interface FoundFile {
